@@ -28,7 +28,7 @@ function onPerPageChange(event: Event) {
       Previous page
     </button>
 
-    <p class="pagination__status">Page {{ page }}</p>
+    <p class="pagination__status" role="status">Page {{ page }}</p>
 
     <button
       type="button"
