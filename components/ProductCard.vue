@@ -2,7 +2,10 @@
 import { computed } from 'vue'
 import type { Product } from '~/types/product'
 
-const props = defineProps<{ product: Product }>()
+const props = withDefaults(
+  defineProps<{ product: Product; eager?: boolean }>(),
+  { eager: false },
+)
 const emit = defineEmits<{ add: [product: Product] }>()
 
 const image = computed(() => firstImage(props.product.images))
@@ -18,7 +21,8 @@ const price = computed(() => formatPrice(props.product.price))
         class="card__image"
         width="300"
         height="300"
-        loading="lazy"
+        :loading="eager ? 'eager' : 'lazy'"
+        :fetchpriority="eager ? 'high' : 'auto'"
         decoding="async"
       >
       <h2 class="card__title">{{ product.title }}</h2>

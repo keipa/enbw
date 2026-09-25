@@ -59,8 +59,8 @@ function addToCart(product: Product) {
   <DataState :pending="pending" :error="error" label="products" @retry="refresh">
     <p v-if="products.length === 0" class="data-state">No products found.</p>
     <ul v-else class="product-grid">
-      <li v-for="product in products" :key="product.id">
-        <ProductCard :product="product" @add="addToCart" />
+      <li v-for="(product, index) in products" :key="product.id">
+        <ProductCard :product="product" :eager="index < 4" @add="addToCart" />
       </li>
     </ul>
   </DataState>

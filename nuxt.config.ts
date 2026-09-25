@@ -11,6 +11,10 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ],
+      link: [
+        { rel: 'preconnect', href: 'https://i.imgur.com', crossorigin: '' },
+        { rel: 'preconnect', href: 'https://images.ctfassets.net', crossorigin: '' },
+      ],
     },
   },
   runtimeConfig: {

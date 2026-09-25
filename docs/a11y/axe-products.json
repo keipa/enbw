@@ -14,7 +14,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-09-25T15:50:19.310Z",
+    "timestamp": "2026-09-25T17:12:50.847Z",
     "url": "http://localhost:3000/products",
     "toolOptions": {
       "reporter": "v1"
@@ -4125,9 +4125,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/4\"] > img"
+              "a[href$=\"products/4\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -4160,9 +4160,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/5\"] > img"
+              "a[href$=\"products/5\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -4195,9 +4195,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/6\"] > img"
+              "a[href$=\"products/6\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -4230,9 +4230,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/7\"] > img"
+              "a[href$=\"products/7\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -4265,9 +4265,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/8\"] > img"
+              "a[href$=\"products/8\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4300,9 +4300,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/9\"] > img"
+              "a[href$=\"products/9\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4335,9 +4335,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/10\"] > img"
+              "a[href=\"/products/10\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4370,9 +4370,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/11\"] > img"
+              "a[href=\"/products/11\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4405,9 +4405,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/12\"] > img"
+              "a[href=\"/products/12\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4440,9 +4440,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/13\"] > img"
+              "a[href=\"/products/13\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4475,9 +4475,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/14\"] > img"
+              "a[href=\"/products/14\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4510,9 +4510,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/15\"] > img"
+              "a[href=\"/products/15\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           }
         ]
@@ -4541,9 +4541,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/4\"] > img"
+              "a[href$=\"products/4\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -4559,9 +4559,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/5\"] > img"
+              "a[href$=\"products/5\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -4577,9 +4577,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/6\"] > img"
+              "a[href$=\"products/6\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -4595,9 +4595,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/7\"] > img"
+              "a[href$=\"products/7\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -4613,9 +4613,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/8\"] > img"
+              "a[href$=\"products/8\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4631,9 +4631,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/9\"] > img"
+              "a[href$=\"products/9\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4649,9 +4649,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/10\"] > img"
+              "a[href=\"/products/10\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4667,9 +4667,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/11\"] > img"
+              "a[href=\"/products/11\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4685,9 +4685,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/12\"] > img"
+              "a[href=\"/products/12\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4703,9 +4703,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/13\"] > img"
+              "a[href=\"/products/13\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4721,9 +4721,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/14\"] > img"
+              "a[href=\"/products/14\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -4739,9 +4739,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/15\"] > img"
+              "a[href=\"/products/15\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           }
         ]
@@ -5247,7 +5247,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/4\" class=\"card__link\"><img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Grey Hooded Sweatshirt</h2></a>",
+            "html": "<a href=\"/products/4\" class=\"card__link\"><img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\"><h2 class=\"card__title\">Classic Grey Hooded Sweatshirt</h2></a>",
             "target": [
               "a[href$=\"products/4\"]"
             ]
@@ -5273,7 +5273,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/5\" class=\"card__link\"><img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Black Hooded Sweatshirt</h2></a>",
+            "html": "<a href=\"/products/5\" class=\"card__link\"><img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\"><h2 class=\"card__title\">Classic Black Hooded Sweatshirt</h2></a>",
             "target": [
               "a[href$=\"products/5\"]"
             ]
@@ -5299,7 +5299,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/6\" class=\"card__link\"><img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Comfort Fit Joggers</h2></a>",
+            "html": "<a href=\"/products/6\" class=\"card__link\"><img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\"><h2 class=\"card__title\">Classic Comfort Fit Joggers</h2></a>",
             "target": [
               "a[href$=\"products/6\"]"
             ]
@@ -5325,7 +5325,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/7\" class=\"card__link\"><img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Comfort Drawstring Joggers</h2></a>",
+            "html": "<a href=\"/products/7\" class=\"card__link\"><img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\"><h2 class=\"card__title\">Classic Comfort Drawstring Joggers</h2></a>",
             "target": [
               "a[href$=\"products/7\"]"
             ]
@@ -5351,7 +5351,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/8\" class=\"card__link\"><img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Red Jogger Sweatpants</h2></a>",
+            "html": "<a href=\"/products/8\" class=\"card__link\"><img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Red Jogger Sweatpants</h2></a>",
             "target": [
               "a[href$=\"products/8\"]"
             ]
@@ -5377,7 +5377,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/9\" class=\"card__link\"><img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Navy Blue Baseball Cap</h2></a>",
+            "html": "<a href=\"/products/9\" class=\"card__link\"><img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Navy Blue Baseball Cap</h2></a>",
             "target": [
               "a[href$=\"products/9\"]"
             ]
@@ -5403,7 +5403,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/10\" class=\"card__link\"><img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Blue Baseball Cap</h2></a>",
+            "html": "<a href=\"/products/10\" class=\"card__link\"><img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Blue Baseball Cap</h2></a>",
             "target": [
               "a[href=\"/products/10\"]"
             ]
@@ -5429,7 +5429,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/11\" class=\"card__link\"><img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Red Baseball Cap</h2></a>",
+            "html": "<a href=\"/products/11\" class=\"card__link\"><img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Red Baseball Cap</h2></a>",
             "target": [
               "a[href=\"/products/11\"]"
             ]
@@ -5455,7 +5455,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/12\" class=\"card__link\"><img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Black Baseball Cap</h2></a>",
+            "html": "<a href=\"/products/12\" class=\"card__link\"><img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Black Baseball Cap</h2></a>",
             "target": [
               "a[href=\"/products/12\"]"
             ]
@@ -5481,7 +5481,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/13\" class=\"card__link\"><img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Olive Chino Shorts</h2></a>",
+            "html": "<a href=\"/products/13\" class=\"card__link\"><img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Olive Chino Shorts</h2></a>",
             "target": [
               "a[href=\"/products/13\"]"
             ]
@@ -5507,7 +5507,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/14\" class=\"card__link\"><img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic High-Waisted Athletic Shorts</h2></a>",
+            "html": "<a href=\"/products/14\" class=\"card__link\"><img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic High-Waisted Athletic Shorts</h2></a>",
             "target": [
               "a[href=\"/products/14\"]"
             ]
@@ -5533,7 +5533,7 @@
               }
             ],
             "impact": null,
-            "html": "<a href=\"/products/15\" class=\"card__link\"><img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic White Crew Neck T-Shirt</h2></a>",
+            "html": "<a href=\"/products/15\" class=\"card__link\"><img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic White Crew Neck T-Shirt</h2></a>",
             "target": [
               "a[href=\"/products/15\"]"
             ]
@@ -6274,9 +6274,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/4\"] > img"
+              "a[href$=\"products/4\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -6299,9 +6299,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/5\"] > img"
+              "a[href$=\"products/5\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -6324,9 +6324,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/6\"] > img"
+              "a[href$=\"products/6\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -6349,9 +6349,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/7\"] > img"
+              "a[href$=\"products/7\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -6374,9 +6374,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/8\"] > img"
+              "a[href$=\"products/8\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -6399,9 +6399,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/9\"] > img"
+              "a[href$=\"products/9\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -6424,9 +6424,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/10\"] > img"
+              "a[href=\"/products/10\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -6449,9 +6449,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/11\"] > img"
+              "a[href=\"/products/11\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -6474,9 +6474,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/12\"] > img"
+              "a[href=\"/products/12\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -6499,9 +6499,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/13\"] > img"
+              "a[href=\"/products/13\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -6524,9 +6524,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/14\"] > img"
+              "a[href=\"/products/14\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -6549,9 +6549,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/15\"] > img"
+              "a[href=\"/products/15\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           }
         ]
@@ -6844,7 +6844,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/4\" class=\"card__link\"><img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Grey Hooded Sweatshirt</h2></a>",
+            "html": "<a href=\"/products/4\" class=\"card__link\"><img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\"><h2 class=\"card__title\">Classic Grey Hooded Sweatshirt</h2></a>",
             "target": [
               "a[href$=\"products/4\"]"
             ]
@@ -6864,9 +6864,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/R2PN9Wq.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/4\"] > img"
+              "a[href$=\"products/4\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -7004,7 +7004,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/5\" class=\"card__link\"><img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Black Hooded Sweatshirt</h2></a>",
+            "html": "<a href=\"/products/5\" class=\"card__link\"><img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\"><h2 class=\"card__title\">Classic Black Hooded Sweatshirt</h2></a>",
             "target": [
               "a[href$=\"products/5\"]"
             ]
@@ -7024,9 +7024,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/cSytoSD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/5\"] > img"
+              "a[href$=\"products/5\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -7164,7 +7164,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/6\" class=\"card__link\"><img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Comfort Fit Joggers</h2></a>",
+            "html": "<a href=\"/products/6\" class=\"card__link\"><img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\"><h2 class=\"card__title\">Classic Comfort Fit Joggers</h2></a>",
             "target": [
               "a[href$=\"products/6\"]"
             ]
@@ -7184,9 +7184,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/ZKGofuB.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/6\"] > img"
+              "a[href$=\"products/6\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -7324,7 +7324,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/7\" class=\"card__link\"><img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Comfort Drawstring Joggers</h2></a>",
+            "html": "<a href=\"/products/7\" class=\"card__link\"><img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\"><h2 class=\"card__title\">Classic Comfort Drawstring Joggers</h2></a>",
             "target": [
               "a[href$=\"products/7\"]"
             ]
@@ -7344,9 +7344,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/mp3rUty.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/7\"] > img"
+              "a[href$=\"products/7\"] > img[loading=\"eager\"][fetchpriority=\"high\"]"
             ]
           },
           {
@@ -7484,7 +7484,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/8\" class=\"card__link\"><img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Red Jogger Sweatpants</h2></a>",
+            "html": "<a href=\"/products/8\" class=\"card__link\"><img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Red Jogger Sweatpants</h2></a>",
             "target": [
               "a[href$=\"products/8\"]"
             ]
@@ -7504,9 +7504,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/9LFjwpI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/8\"] > img"
+              "a[href$=\"products/8\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -7644,7 +7644,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/9\" class=\"card__link\"><img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Navy Blue Baseball Cap</h2></a>",
+            "html": "<a href=\"/products/9\" class=\"card__link\"><img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Navy Blue Baseball Cap</h2></a>",
             "target": [
               "a[href$=\"products/9\"]"
             ]
@@ -7664,9 +7664,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/R3iobJA.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href$=\"products/9\"] > img"
+              "a[href$=\"products/9\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -7804,7 +7804,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/10\" class=\"card__link\"><img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Blue Baseball Cap</h2></a>",
+            "html": "<a href=\"/products/10\" class=\"card__link\"><img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Blue Baseball Cap</h2></a>",
             "target": [
               "a[href=\"/products/10\"]"
             ]
@@ -7824,9 +7824,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/wXuQ7bm.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/10\"] > img"
+              "a[href=\"/products/10\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -7964,7 +7964,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/11\" class=\"card__link\"><img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Red Baseball Cap</h2></a>",
+            "html": "<a href=\"/products/11\" class=\"card__link\"><img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Red Baseball Cap</h2></a>",
             "target": [
               "a[href=\"/products/11\"]"
             ]
@@ -7984,9 +7984,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/cBuLvBi.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/11\"] > img"
+              "a[href=\"/products/11\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -8124,7 +8124,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/12\" class=\"card__link\"><img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Black Baseball Cap</h2></a>",
+            "html": "<a href=\"/products/12\" class=\"card__link\"><img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Black Baseball Cap</h2></a>",
             "target": [
               "a[href=\"/products/12\"]"
             ]
@@ -8144,9 +8144,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/KeqG6r4.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/12\"] > img"
+              "a[href=\"/products/12\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -8284,7 +8284,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/13\" class=\"card__link\"><img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic Olive Chino Shorts</h2></a>",
+            "html": "<a href=\"/products/13\" class=\"card__link\"><img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic Olive Chino Shorts</h2></a>",
             "target": [
               "a[href=\"/products/13\"]"
             ]
@@ -8304,9 +8304,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/UsFIvYs.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/13\"] > img"
+              "a[href=\"/products/13\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -8444,7 +8444,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/14\" class=\"card__link\"><img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic High-Waisted Athletic Shorts</h2></a>",
+            "html": "<a href=\"/products/14\" class=\"card__link\"><img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic High-Waisted Athletic Shorts</h2></a>",
             "target": [
               "a[href=\"/products/14\"]"
             ]
@@ -8464,9 +8464,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/eGOUveI.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/14\"] > img"
+              "a[href=\"/products/14\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
@@ -8604,7 +8604,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<a href=\"/products/15\" class=\"card__link\"><img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\"><h2 class=\"card__title\">Classic White Crew Neck T-Shirt</h2></a>",
+            "html": "<a href=\"/products/15\" class=\"card__link\"><img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\"><h2 class=\"card__title\">Classic White Crew Neck T-Shirt</h2></a>",
             "target": [
               "a[href=\"/products/15\"]"
             ]
@@ -8624,9 +8624,9 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" decoding=\"async\">",
+            "html": "<img src=\"https://i.imgur.com/axsyGpD.jpeg\" alt=\"\" class=\"card__image\" width=\"300\" height=\"300\" loading=\"lazy\" fetchpriority=\"auto\" decoding=\"async\">",
             "target": [
-              "a[href=\"/products/15\"] > img"
+              "a[href=\"/products/15\"] > img[loading=\"lazy\"][fetchpriority=\"auto\"]"
             ]
           },
           {
