@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   ssr: true,
   modules: ['@pinia/nuxt'],
   typescript: { strict: true },
+  css: ['~/assets/css/tokens.css', '~/assets/css/main.css'],
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
