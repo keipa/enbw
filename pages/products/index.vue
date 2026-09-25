@@ -1,11 +1,32 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { computed } from 'vue'
 import { useCartStore } from '~/stores/cart'
 import type { Product } from '~/types/product'
 
-const page = ref(1)
-const perPage = ref(12)
-const { products, pending, error, refresh } = useProducts({ page, perPage })
+const route = useRoute()
+const router = useRouter()
+
+const page = computed({
+  get: () => {
+    const value = Number(route.query.page)
+    return Number.isFinite(value) && value >= 1 ? Math.floor(value) : 1
+  },
+  set: (value: number) => {
+    router.push({ query: { ...route.query, page: String(value) } })
+  },
+})
+
+const perPage = computed({
+  get: () => {
+    const value = Number(route.query.perPage)
+    return [8, 12, 24].includes(value) ? value : 12
+  },
+  set: (value: number) => {
+    router.push({ query: { ...route.query, perPage: String(value), page: '1' } })
+  },
+})
+
+const { products, hasNext, pending, error, refresh } = useProducts({ page, perPage })
 
 const cart = useCartStore()
 const { announce } = useAnnouncer()
@@ -39,4 +60,12 @@ function addToCart(product: Product) {
       </li>
     </ul>
   </DataState>
+
+  <PaginationNav
+    :page="page"
+    :per-page="perPage"
+    :has-next="hasNext"
+    @update:page="page = $event"
+    @update:per-page="perPage = $event"
+  />
 </template>
