@@ -28,6 +28,8 @@ const perPage = computed({
 
 const { products, hasNext, pending, error, refresh } = useProducts({ page, perPage })
 
+const { data: banner } = await useFetch('/api/promo-banner')
+
 const cart = useCartStore()
 const { announce } = useAnnouncer()
 
@@ -51,6 +53,8 @@ function addToCart(product: Product) {
 
 <template>
   <h1>Products</h1>
+
+  <PromoBanner v-if="banner" :banner="banner" />
 
   <DataState :pending="pending" :error="error" label="products" @retry="refresh">
     <p v-if="products.length === 0" class="data-state">No products found.</p>
