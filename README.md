@@ -157,10 +157,17 @@ gate in `.lighthouserc.json` now collects under), median of 3 runs.
 
 **What actually happened, in order:**
 
-The baseline's real top opportunities were `uses-text-compression` (1190ms),
-`unused-javascript` (900ms) and `server-response-time` (730ms). Images ranked
-fifth, at ~210ms (`uses-responsive-images`) — nowhere near "the dominant
-opportunity" the original plan assumed.
+Sorting the baseline median run's opportunity audits by Lighthouse's own
+`overallSavingsMs` (the figure it uses to order its "Opportunities" list) gives:
+
+1. `uses-text-compression` — 1190ms
+2. `unused-javascript` — 900ms
+3. `server-response-time` — 630ms
+4. `uses-responsive-images` — 210ms
+5. `modern-image-formats` — 150ms
+
+Image-related audits occupied the two lowest-value slots, ranks 4 and 5 —
+nowhere near "the dominant opportunity" the original plan assumed.
 
 **First attempt — image loading, and it did not work.** The LCP element was
 still the first product card image, and it was carrying a blanket
@@ -168,11 +175,23 @@ still the first product card image, and it was carrying a blanket
 fix made the first row `eager`/`fetchpriority="high"` and left the rest lazy,
 and added preconnects for both image hosts. Result: performance moved from 78
 to 79 — inside run-to-run noise (the baseline's own best individual run was
-already 79; the three baseline runs were 76/78/79). LCP timing was essentially
-unchanged before and after (~4.1–4.3s both times). The predicted CLS
+already 79; the three baseline runs were 76/78/79, and the three image-fix
+runs were 79/79/78). LCP timing did not meaningfully move: the baseline's
+three runs ranged 4107–4555ms (4.1–4.6s), and the image-fix run set ranged
+4107–4255ms (4.1–4.3s) — an overlapping range, not a systematic improvement,
+consistent with the 1-point score delta being noise. The predicted CLS
 improvement also didn't materialize, because CLS was already 0 before this fix
 — intrinsic `width`/`height` had been declared on images much earlier in the
 build, so there was no layout shift left to fix.
+
+This intermediate, superseded capture (image fix only, before the compression
+fix below) is preserved as JSON at `docs/lighthouse/after-image-fix-only/` —
+recovered from the commit that captured it, since the working `after/`
+directory was later overwritten by the compression-fix capture. It exists so
+the 79/79/78 claim above is independently checkable, not just asserted; it is
+**not** a third performance state of the app — the project has exactly two
+measured states, before and after, and this directory is superseded evidence
+for a step in between them.
 
 **Second attempt — compression, and it worked.** The actual top opportunity,
 `uses-text-compression`, was addressed directly: Nitro's `compressPublicAssets`
@@ -197,7 +216,10 @@ explicitly defers as a "revisit if it becomes a problem" decision, not an
 oversight.
 
 Full reports: `docs/lighthouse/before/` and `docs/lighthouse/after/` (JSON + HTML,
-3 runs each).
+3 runs each — this is the required before/after pair for this assessment).
+`docs/lighthouse/after-image-fix-only/` holds the superseded intermediate
+capture referenced above (JSON only, 3 runs) and is not a third state of the
+app.
 
 ## CI
 
