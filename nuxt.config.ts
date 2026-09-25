@@ -25,4 +25,7 @@ export default defineNuxtConfig({
       graphqlEndpoint: 'https://api.escuelajs.co/graphql',
     },
   },
+  nitro: {
+    compressPublicAssets: { gzip: true, brotli: true },
+  },
 })
