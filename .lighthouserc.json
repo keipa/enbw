@@ -4,10 +4,7 @@
       "startServerCommand": "npm run start",
       "startServerReadyPattern": "Listening",
       "url": ["http://localhost:3000/products"],
-      "numberOfRuns": 3,
-      "settings": {
-        "preset": "desktop"
-      }
+      "numberOfRuns": 3
     },
     "assert": {
       "assertions": {
