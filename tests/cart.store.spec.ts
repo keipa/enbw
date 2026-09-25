@@ -55,6 +55,32 @@ describe('cart store', () => {
     expect(cart.items).toHaveLength(0)
   })
 
+  it('floors a fractional quantity to a whole number', () => {
+    const cart = useCartStore()
+    cart.add(hoodie)
+    cart.setQuantity('2', 2.9)
+
+    expect(cart.items[0].quantity).toBe(2)
+  })
+
+  it('removes the line when a fractional quantity floors below one', () => {
+    const cart = useCartStore()
+    cart.add(hoodie)
+    cart.setQuantity('2', 0.5)
+
+    expect(cart.items).toHaveLength(0)
+  })
+
+  it('ignores non-finite quantity input and leaves the cart unchanged', () => {
+    const cart = useCartStore()
+    cart.add(hoodie)
+    cart.setQuantity('2', Number.NaN)
+    cart.setQuantity('2', Number.POSITIVE_INFINITY)
+
+    expect(cart.items).toHaveLength(1)
+    expect(cart.items[0].quantity).toBe(1)
+  })
+
   it('clears every line', () => {
     const cart = useCartStore()
     cart.add(hoodie)

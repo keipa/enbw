@@ -34,13 +34,15 @@ export const useCartStore = defineStore('cart', {
       this.items = this.items.filter((line) => line.id !== id)
     },
     setQuantity(id: string, quantity: number) {
+      if (!Number.isFinite(quantity)) return
       const line = this.items.find((item) => item.id === id)
       if (!line) return
-      if (quantity < 1) {
+      const whole = Math.floor(quantity)
+      if (whole < 1) {
         this.remove(id)
         return
       }
-      line.quantity = quantity
+      line.quantity = whole
     },
     clear() {
       this.items = []
