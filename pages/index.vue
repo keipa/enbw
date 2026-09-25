@@ -1,3 +1,7 @@
+<script setup lang="ts">
+await navigateTo('/products', { redirectCode: 301 })
+</script>
+
 <template>
-  <h1>EnBW Storefront</h1>
+  <div />
 </template>
