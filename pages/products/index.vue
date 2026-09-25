@@ -28,7 +28,7 @@ const perPage = computed({
 
 const { products, hasNext, pending, error, refresh } = useProducts({ page, perPage })
 
-const { data: banner } = await useFetch('/api/promo-banner')
+const { data: banner } = await useFetch('/api/promo-banner', { default: () => null })
 
 const cart = useCartStore()
 const { announce } = useAnnouncer()
