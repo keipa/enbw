@@ -14,7 +14,7 @@ const price = computed(() => formatPrice(props.product.price))
     <NuxtLink :to="`/products/${product.id}`" class="card__link">
       <img
         :src="image"
-        :alt="product.title"
+        alt=""
         class="card__image"
         width="300"
         height="300"
