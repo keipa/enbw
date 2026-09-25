@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    env:
+      NUXT_CONTENTFUL_SPACE_ID: ${{ secrets.NUXT_CONTENTFUL_SPACE_ID }}
+      NUXT_CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.NUXT_CONTENTFUL_DELIVERY_TOKEN }}
+      NUXT_CONTENTFUL_ENVIRONMENT: master
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Lighthouse
+        run: npm run lighthouse:ci
+
+      - name: Upload Lighthouse reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: .lighthouseci/reports
