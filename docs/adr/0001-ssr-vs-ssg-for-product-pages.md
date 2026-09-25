@@ -41,7 +41,7 @@ Render product list and detail pages with SSR on every request.
 
 - A server render and an upstream GraphQL request per page view. Time-to-first-byte
   depends on the upstream API's latency, which we do not control. Measured: the
-  `server-response-time` Lighthouse audit is ~858ms on the current build and is
+  `server-response-time` Lighthouse audit is ~959ms on the current build and is
   the largest remaining performance opportunity (see `README.md`) — this cost is
   real, not theoretical.
 - A server must be running. This rules out pure static hosting.
@@ -61,8 +61,8 @@ ISR is the pragmatic middle ground and would likely be correct at real scale, an
 it is the direct answer to the `server-response-time` cost above. It is out of
 scope here because it adds cache-invalidation questions this exercise does not
 need to answer, and because the brief explicitly asks for SSR. The measured
-~858ms upstream wait is being carried deliberately rather than accidentally —
+~959ms upstream wait is being carried deliberately rather than accidentally —
 see the README's performance section for the same trade-off from the
 measurement side. Revisit if request volume against the product API becomes a
-problem, or if the ~858ms response time needs to come down without giving up
+problem, or if the ~959ms response time needs to come down without giving up
 per-request freshness.

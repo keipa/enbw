@@ -14,7 +14,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-09-25T17:20:24.702Z",
+    "timestamp": "2026-09-25T18:23:23.385Z",
     "url": "http://localhost:3000/products/4",
     "toolOptions": {
       "reporter": "v1"
@@ -1823,7 +1823,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<span>Clothess</span>",
+            "html": "<span>Updated Category Name</span>",
             "target": [
               "span:nth-child(3)"
             ]
@@ -3105,7 +3105,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<p class=\"product-detail__breadcrumb\"><a href=\"/products\" class=\"\">Products</a><span aria-hidden=\"true\">/</span><span>Clothess</span></p>",
+            "html": "<p class=\"product-detail__breadcrumb\"><a href=\"/products\" class=\"\">Products</a><!--[--><span aria-hidden=\"true\">/</span><span>Updated Category Name</span><!--]--></p>",
             "target": [
               ".product-detail__breadcrumb"
             ]
@@ -3145,7 +3145,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<span>Clothess</span>",
+            "html": "<span>Updated Category Name</span>",
             "target": [
               "span:nth-child(3)"
             ]

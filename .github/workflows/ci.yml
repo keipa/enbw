@@ -13,6 +13,7 @@ jobs:
       NUXT_CONTENTFUL_SPACE_ID: ${{ secrets.NUXT_CONTENTFUL_SPACE_ID }}
       NUXT_CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.NUXT_CONTENTFUL_DELIVERY_TOKEN }}
       NUXT_CONTENTFUL_ENVIRONMENT: master
+      CHROMEDRIVER_SKIP_DOWNLOAD: "true"
 
     steps:
       - uses: actions/checkout@v4

@@ -60,10 +60,14 @@ function addToCart() {
       <div>
         <p class="product-detail__breadcrumb">
           <NuxtLink to="/products">Products</NuxtLink>
-          <span aria-hidden="true">/</span>
-          <span>{{ product.category.name }}</span>
+          <template v-if="product.category?.name">
+            <span aria-hidden="true">/</span>
+            <span>{{ product.category.name }}</span>
+          </template>
         </p>
-        <p class="product-detail__price">{{ formatPrice(product.price) }}</p>
+        <p v-if="Number.isFinite(product.price)" class="product-detail__price">
+          {{ formatPrice(product.price) }}
+        </p>
         <p>{{ product.description }}</p>
         <button type="button" class="button" @click="addToCart">
           Add to cart<span class="visually-hidden">: {{ product.title }}</span>

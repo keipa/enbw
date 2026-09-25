@@ -14,7 +14,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-09-25T17:20:18.435Z",
+    "timestamp": "2026-09-25T18:23:17.051Z",
     "url": "http://localhost:3000/products",
     "toolOptions": {
       "reporter": "v1"
@@ -3268,7 +3268,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\">12</option><option value=\"24\">24</option><!--]--></select>",
+            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\" selected=\"\">12</option><option value=\"24\">24</option><!--]--></select>",
             "target": [
               "#per-page"
             ]
@@ -3368,7 +3368,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\">12</option><option value=\"24\">24</option><!--]--></select>",
+            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\" selected=\"\">12</option><option value=\"24\">24</option><!--]--></select>",
             "target": [
               "#per-page"
             ]
@@ -3660,7 +3660,7 @@
               }
             ],
             "impact": null,
-            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\">12</option><option value=\"24\">24</option><!--]--></select>",
+            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\" selected=\"\">12</option><option value=\"24\">24</option><!--]--></select>",
             "target": [
               "#per-page"
             ]
@@ -4770,7 +4770,7 @@
               }
             ],
             "impact": null,
-            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\">12</option><option value=\"24\">24</option><!--]--></select>",
+            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\" selected=\"\">12</option><option value=\"24\">24</option><!--]--></select>",
             "target": [
               "#per-page"
             ]
@@ -6179,7 +6179,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<option value=\"12\">12</option>",
+            "html": "<option value=\"12\" selected=\"\">12</option>",
             "target": [
               "option[value=\"12\"]"
             ]
@@ -8804,7 +8804,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<div class=\"pagination__size\"><label for=\"per-page\">Products per page</label><select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\">12</option><option value=\"24\">24</option><!--]--></select></div>",
+            "html": "<div class=\"pagination__size\"><label for=\"per-page\">Products per page</label><select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\" selected=\"\">12</option><option value=\"24\">24</option><!--]--></select></div>",
             "target": [
               ".pagination__size"
             ]
@@ -8844,7 +8844,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\">12</option><option value=\"24\">24</option><!--]--></select>",
+            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\" selected=\"\">12</option><option value=\"24\">24</option><!--]--></select>",
             "target": [
               "#per-page"
             ]
@@ -8884,7 +8884,7 @@
             "all": [],
             "none": [],
             "impact": null,
-            "html": "<option value=\"12\">12</option>",
+            "html": "<option value=\"12\" selected=\"\">12</option>",
             "target": [
               "option[value=\"12\"]"
             ]
@@ -9042,7 +9042,7 @@
               }
             ],
             "impact": null,
-            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\">12</option><option value=\"24\">24</option><!--]--></select>",
+            "html": "<select id=\"per-page\" value=\"12\"><!--[--><option value=\"8\">8</option><option value=\"12\" selected=\"\">12</option><option value=\"24\">24</option><!--]--></select>",
             "target": [
               "#per-page"
             ]

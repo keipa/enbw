@@ -42,7 +42,12 @@ function onPerPageChange(event: Event) {
     <div class="pagination__size">
       <label for="per-page">Products per page</label>
       <select id="per-page" :value="perPage" @change="onPerPageChange">
-        <option v-for="option in perPageOptions" :key="option" :value="option">
+        <option
+          v-for="option in perPageOptions"
+          :key="option"
+          :value="option"
+          :selected="option === perPage"
+        >
           {{ option }}
         </option>
       </select>
