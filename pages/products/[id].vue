@@ -39,6 +39,8 @@ function addToCart() {
 </script>
 
 <template>
+  <h1>{{ product?.title ?? 'Product' }}</h1>
+
   <DataState :pending="pending" :error="error" label="this product" @retry="refresh">
     <p v-if="!product" class="data-state">
       This product is no longer available.
@@ -61,7 +63,6 @@ function addToCart() {
           <span aria-hidden="true">/</span>
           <span>{{ product.category.name }}</span>
         </p>
-        <h1>{{ product.title }}</h1>
         <p class="product-detail__price">{{ formatPrice(product.price) }}</p>
         <p>{{ product.description }}</p>
         <button type="button" class="button" @click="addToCart">
