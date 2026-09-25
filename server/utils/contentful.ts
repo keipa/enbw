@@ -46,8 +46,11 @@ export function mapPromoBanner(response: CdaResponse): PromoBanner | null {
 
   if (file?.url) {
     const base = file.url.startsWith('//') ? `https:${file.url}` : file.url
-    const originalWidth = file.details?.image?.width ?? IMAGE_WIDTH
-    const originalHeight = file.details?.image?.height ?? Math.round(IMAGE_WIDTH / 2)
+    const declaredWidth = file.details?.image?.width
+    const declaredHeight = file.details?.image?.height
+    const originalWidth = declaredWidth && declaredWidth > 0 ? declaredWidth : IMAGE_WIDTH
+    const originalHeight =
+      declaredHeight && declaredHeight > 0 ? declaredHeight : Math.round(IMAGE_WIDTH / 2)
     const width = Math.min(IMAGE_WIDTH, originalWidth)
     const height = Math.round((originalHeight / originalWidth) * width)
 
